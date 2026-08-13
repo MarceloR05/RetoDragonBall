@@ -15,6 +15,7 @@ namespace RetoDragonBall.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 
