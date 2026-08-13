@@ -7,6 +7,9 @@ namespace RetoDragonBall.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Titulo"] = "Catálogo de Productos";
+            ViewData["Productos"] = ObtenerProductos();
+
             return View();
         }
 
