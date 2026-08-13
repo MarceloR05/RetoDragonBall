@@ -15,6 +15,10 @@ namespace RetoDragonBall.Controllers
 
         public IActionResult Index()
         {
+            ViewData["NombreEstudiante"] = "Marcelo Rivera y Luis Rodrigues";
+            ViewData["Carrera"] = "Ingeniería en Desarrollo de Software";
+            ViewData["Materia"] = "Aplicaciones Web";
+            ViewData["Seccion"] = "A";
 
             return View();
         }
