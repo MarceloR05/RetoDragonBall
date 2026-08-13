@@ -1,0 +1,6 @@
+El controler sirve para manejar las solicitudes y respuestas
+El modelo representa la estructura de los datos y la lógica de negocio
+El view se encarga de la presentación de la información al usuario
+El wwwroot es la carpeta donde se almacenan los archivos públicos del proyecto, como imágenes, hojas de estilo y scripts
+El program.cs es el archivo principal de la aplicación donde se configura y se inicia la aplicación
+El appsetings.json es el archivo de configuración donde se pueden definir variables y parámetros de la aplicación
