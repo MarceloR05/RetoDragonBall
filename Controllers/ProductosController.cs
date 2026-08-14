@@ -10,12 +10,11 @@ namespace RetoDragonBall.Controllers
             var productos = ObtenerProductos();
 
             ViewData["Titulo"] = "Catálogo de Productos";
-            ViewData["Productos"] = productos;
 
             ViewBag.CantidadProductos = productos.Count;
             ViewBag.NombreTienda = "WebAcademia";
 
-            return View();
+            return View(productos);
         }
 
         private List<Producto> ObtenerProductos()
